@@ -1,4 +1,4 @@
-FROM python:rc-buster
+FROM python:3.10.1-buster
 
 COPY serial_sqlwriter.py /
 
